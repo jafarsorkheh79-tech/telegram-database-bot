@@ -7,8 +7,8 @@ from aiogram.filters import Command
 import asyncio
 
 # 🔧 از Environment Variables می‌خونه (Railway اینجوری کار می‌کنه)
-BOT_TOKEN = os.getenv("BOT_TOKEN", "توکن_تو_اینجا_بذار_موقت")
-ADMIN_ID = int(os.getenv("ADMIN_ID", "123456789"))  # آیدی تو
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8500871080:AAE2EVJHTG4Me2DuNUjsU15peuDMYTDtjYs")
+ADMIN_ID = int(os.getenv("ADMIN_ID", "1849611722"))  # آیدی تو
 
 # دیتابیس
 conn = sqlite3.connect('data.db', check_same_thread=False)
